@@ -1,0 +1,89 @@
+product_id,product_name,category,subcategory,brand,list_price,unit_cost,avg_rating,launch_date,expected_return_rate,is_active,margin_pct
+P1001,Pulse Lite Charging Kit,Electronics,Mobile Accessories,Pulse,33.41,19.28,4.9,2023-12-15,0.06,True,0.4229272672852438
+P1002,Auralink Go Speaker,Electronics,Audio,Auralink,80.22,57.07,4.1,2023-12-12,0.06,True,0.28858140114684616
+P1003,NovaTech Essential Smart Band,Electronics,Wearables,NovaTech,32.55,23.12,4.9,2024-01-27,0.06,True,0.28970814132104444
+P1004,Pulse Essential Speaker,Electronics,Audio,Pulse,94.95,72.43,4.3,2023-09-08,0.06,True,0.23717746182201155
+P1005,NovaTech Pro Speaker,Electronics,Audio,NovaTech,153.81,92.22,4.5,2023-07-03,0.06,True,0.4004291008386971
+P1006,NovaTech Go Keyboard,Electronics,Computer Accessories,NovaTech,23.03,14.37,4.2,2023-10-18,0.06,True,0.37603126356925753
+P1007,Auralink Go Smart Band,Electronics,Wearables,Auralink,64.52,41.12,4.9,2023-09-15,0.06,True,0.36267823930564164
+P1008,Auralink Lite Speaker,Electronics,Audio,Auralink,112.49,81.75,4.4,2023-12-16,0.06,True,0.2732687349986665
+P1009,Auralink Mini Smart Band,Electronics,Wearables,Auralink,141.97,75.62,3.8,2024-03-24,0.06,True,0.4673522575191942
+P1010,NovaTech Elite Speaker,Electronics,Audio,NovaTech,173.27,121.01,4.0,2025-01-29,0.06,True,0.30161020372828534
+P1011,Auralink Elite Keyboard,Electronics,Computer Accessories,Auralink,46.83,35.51,3.6,2024-04-26,0.06,True,0.2417253897074525
+P1012,Auralink Mini Charging Kit,Electronics,Mobile Accessories,Auralink,92.81,61.31,4.5,2023-02-03,0.06,True,0.33940308156448656
+P1013,NovaTech Go Smart Band,Electronics,Wearables,NovaTech,102.59,53.71,4.1,2024-02-20,0.06,True,0.4764596939272834
+P1014,Auralink Flex Keyboard,Electronics,Computer Accessories,Auralink,103.32,69.13,4.7,2023-01-22,0.06,True,0.33091366627951996
+P1015,NovaTech Max Speaker,Electronics,Audio,NovaTech,150.71,107.4,4.9,2023-04-18,0.06,True,0.2873731006568907
+P1016,Pulse Pro Charging Kit,Electronics,Mobile Accessories,Pulse,161.3,103.82,4.0,2024-09-14,0.06,True,0.3563546187228767
+P1017,Auralink Air Speaker,Electronics,Audio,Auralink,166.81,108.89,4.6,2024-04-19,0.06,True,0.34722138960493976
+P1018,ByteCraft Flex Keyboard,Electronics,Computer Accessories,ByteCraft,212.92,113.76,4.9,2023-08-04,0.06,True,0.46571482246853274
+P1019,Haven Studio Blanket,Home,Bedding,Haven,122.75,66.45,4.3,2024-10-10,0.04,True,0.4586558044806517
+P1020,Nestory Studio Blanket,Home,Bedding,Nestory,28.06,14.15,4.7,2024-10-23,0.04,True,0.4957234497505345
+P1021,Haven Max Diffuser,Home,Decor,Haven,35.0,21.95,3.9,2023-06-30,0.04,True,0.3728571428571429
+P1022,Oak & Ember Ultra Tumbler,Home,Kitchen,Oak & Ember,171.82,111.74,3.9,2023-07-10,0.04,True,0.34966825747875685
+P1023,LumaHome Essential Diffuser,Home,Decor,LumaHome,145.79,84.41,4.8,2024-09-14,0.04,True,0.4210165306262432
+P1024,Oak & Ember Elite Blanket,Home,Bedding,Oak & Ember,45.13,21.82,4.2,2023-08-23,0.04,True,0.5165078661644139
+P1025,Nestory Core Blanket,Home,Bedding,Nestory,169.77,120.37,4.2,2023-07-02,0.04,True,0.2909819167108441
+P1026,Oak & Ember Plus Diffuser,Home,Decor,Oak & Ember,145.86,76.77,4.5,2024-10-23,0.04,True,0.4736733854380914
+P1027,Haven Plus Organizer,Home,Storage,Haven,144.17,78.86,3.2,2024-04-14,0.04,True,0.453006866893251
+P1028,Haven Max Organizer,Home,Storage,Haven,83.85,46.79,4.1,2023-09-05,0.04,True,0.4419797257006559
+P1029,Nestory Essential Diffuser,Home,Decor,Nestory,139.31,80.99,4.2,2024-11-29,0.04,True,0.4186346995908406
+P1030,Nestory Air Diffuser,Home,Decor,Nestory,21.32,12.23,3.9,2023-11-12,0.04,True,0.4263602251407129
+P1031,Oak & Ember Essential Tumbler,Home,Kitchen,Oak & Ember,79.81,44.82,4.5,2024-09-21,0.04,True,0.4384162385665957
+P1032,Oak & Ember Elite Blanket,Home,Bedding,Oak & Ember,122.74,83.98,4.1,2024-09-20,0.04,True,0.31578947368421045
+P1033,Haven Plus Blanket,Home,Bedding,Haven,108.58,73.21,4.5,2023-07-03,0.04,True,0.3257505986369498
+P1034,LumaHome Air Blanket,Home,Bedding,LumaHome,101.48,51.23,4.4,2023-09-27,0.04,True,0.49517146235711473
+P1035,Haven Max Tumbler,Home,Kitchen,Haven,93.91,60.95,4.4,2024-05-12,0.04,True,0.3509743371312959
+P1036,Nestory Lite Tumbler,Home,Kitchen,Nestory,45.19,27.15,4.3,2023-09-13,0.04,True,0.3992033635760124
+P1037,Threadmark Prime Jacket,Fashion,Outerwear,Threadmark,144.98,69.53,4.2,2024-06-23,0.14,True,0.5204166091874741
+P1038,Threadmark Core Trainers,Fashion,Footwear,Threadmark,89.66,52.04,3.9,2024-09-04,0.14,True,0.41958509926388576
+P1039,Threadmark Flex Tee,Fashion,Basics,Threadmark,78.03,41.14,4.8,2025-01-23,0.14,True,0.47276688453159044
+P1040,UrbanWeave Mini Leggings,Fashion,Activewear,UrbanWeave,64.46,38.98,4.3,2024-11-19,0.14,True,0.39528389699038163
+P1041,Threadmark Go Trainers,Fashion,Footwear,Threadmark,19.11,9.44,4.1,2024-03-03,0.14,True,0.5060177917320775
+P1042,UrbanWeave Max Leggings,Fashion,Activewear,UrbanWeave,44.84,27.67,4.9,2023-01-12,0.14,True,0.3829170383586084
+P1043,PeakForm Mini Leggings,Fashion,Activewear,PeakForm,142.05,54.23,4.8,2023-04-03,0.14,True,0.6182330165434707
+P1044,PeakForm Ultra Trainers,Fashion,Footwear,PeakForm,62.98,36.21,4.2,2024-07-13,0.14,True,0.42505557319784054
+P1045,PeakForm Air Jacket,Fashion,Outerwear,PeakForm,131.39,68.88,3.6,2024-07-15,0.14,True,0.47575919019712304
+P1046,UrbanWeave Mini Jacket,Fashion,Outerwear,UrbanWeave,44.66,24.22,4.9,2023-03-10,0.14,True,0.45768025078369906
+P1047,UrbanWeave Prime Jacket,Fashion,Outerwear,UrbanWeave,40.46,18.33,3.8,2024-03-03,0.14,True,0.5469599604547702
+P1048,Northline Elite Leggings,Fashion,Activewear,Northline,84.31,38.33,4.3,2024-02-15,0.14,True,0.5453682837148619
+P1049,UrbanWeave Prime Trainers,Fashion,Footwear,UrbanWeave,41.8,22.36,3.9,2024-12-20,0.14,True,0.4650717703349282
+P1050,PeakForm Plus Tee,Fashion,Basics,PeakForm,43.72,22.11,4.1,2023-09-18,0.14,True,0.49428179322964316
+P1051,UrbanWeave Prime Leggings,Fashion,Activewear,UrbanWeave,33.14,13.97,4.9,2024-02-05,0.14,True,0.5784550392275196
+P1052,Threadmark Core Jacket,Fashion,Outerwear,Threadmark,115.81,45.5,4.9,2023-08-27,0.14,True,0.6071151023227701
+P1053,Threadmark Ultra Leggings,Fashion,Activewear,Threadmark,115.33,59.06,4.2,2024-03-15,0.14,True,0.4879042746900199
+P1054,Northline Elite Leggings,Fashion,Activewear,Northline,35.66,21.8,4.6,2023-04-15,0.14,True,0.3886707795849691
+P1055,Mist & Muse Lite Hair Oil,Beauty,Haircare,Mist & Muse,45.52,18.29,4.5,2023-09-23,0.03,True,0.5981985940246046
+P1056,Mist & Muse Mini Brush Set,Beauty,Tools,Mist & Muse,25.17,12.28,4.7,2023-07-18,0.03,True,0.5121176003178387
+P1057,GlowLab Max Hair Oil,Beauty,Haircare,GlowLab,67.45,30.02,4.9,2023-05-20,0.03,True,0.5549295774647888
+P1058,GlowLab Elite Brush Set,Beauty,Tools,GlowLab,18.01,6.75,3.9,2024-12-12,0.03,True,0.6252082176568573
+P1059,GlowLab Max Mist,Beauty,Fragrance,GlowLab,63.14,32.04,4.1,2024-03-10,0.03,True,0.49255622426354134
+P1060,Verde Go Serum,Beauty,Skincare,Verde,35.13,15.31,4.4,2024-12-20,0.03,True,0.5641901508682038
+P1061,Mist & Muse Core Hair Oil,Beauty,Haircare,Mist & Muse,63.08,31.69,4.2,2024-08-07,0.03,True,0.4976220672162333
+P1062,Verde Flex Hair Oil,Beauty,Haircare,Verde,19.5,10.77,4.7,2023-08-15,0.03,True,0.4476923076923077
+P1063,Serein Essential Hair Oil,Beauty,Haircare,Serein,64.58,31.44,4.4,2024-05-11,0.03,True,0.5131619696500465
+P1064,Verde Elite Hair Oil,Beauty,Haircare,Verde,56.06,20.47,4.9,2023-06-28,0.03,True,0.6348555119514806
+P1065,GlowLab Go Brush Set,Beauty,Tools,GlowLab,37.2,21.18,4.4,2024-01-19,0.03,True,0.43064516129032265
+P1066,Mist & Muse Air Serum,Beauty,Skincare,Mist & Muse,63.01,23.03,4.8,2025-01-19,0.03,True,0.6345024599269957
+P1067,GlowLab Elite Serum,Beauty,Skincare,GlowLab,71.43,20.63,3.9,2024-03-05,0.03,True,0.7111857762844744
+P1068,Verde Go Serum,Beauty,Skincare,Verde,61.02,25.09,4.2,2023-10-20,0.03,True,0.5888233366109473
+P1069,Verde Plus Brush Set,Beauty,Tools,Verde,85.45,33.05,4.1,2023-05-12,0.03,True,0.6132241076653014
+P1070,Serein Go Hair Oil,Beauty,Haircare,Serein,45.38,17.71,4.2,2023-01-15,0.03,True,0.6097399735566329
+P1071,Summit Elite Water Bottle,Sports,Hydration,Summit,38.97,24.03,4.1,2024-05-16,0.07,True,0.3833718244803695
+P1072,MotionLab Elite Daypack,Sports,Outdoor,MotionLab,159.25,98.34,4.4,2023-07-15,0.07,True,0.38248037676609103
+P1073,MotionLab Flex Water Bottle,Sports,Hydration,MotionLab,55.31,25.06,4.0,2023-03-14,0.07,True,0.546917374796601
+P1074,CoreOne Lite Massage Roller,Sports,Recovery,CoreOne,22.23,15.27,4.0,2024-09-17,0.07,True,0.31309041835357626
+P1075,CoreOne Studio Water Bottle,Sports,Hydration,CoreOne,24.59,12.82,4.6,2023-04-25,0.07,True,0.47864985766571777
+P1076,CoreOne Studio Massage Roller,Sports,Recovery,CoreOne,87.28,60.96,4.2,2024-02-09,0.07,True,0.3015582034830431
+P1077,Summit Mini Daypack,Sports,Outdoor,Summit,15.92,10.85,4.4,2023-06-06,0.07,True,0.3184673366834171
+P1078,MotionLab Elite Daypack,Sports,Outdoor,MotionLab,142.41,75.39,4.7,2023-06-23,0.07,True,0.4706130187486834
+P1079,Summit Max Massage Roller,Sports,Recovery,Summit,149.78,73.38,4.4,2023-01-12,0.07,True,0.5100814527974362
+P1080,MotionLab Go Massage Roller,Sports,Recovery,MotionLab,29.25,18.03,4.1,2023-04-04,0.07,True,0.38358974358974357
+P1081,TrailArc Prime Water Bottle,Sports,Hydration,TrailArc,92.79,43.31,4.6,2023-05-26,0.07,True,0.5332471171462442
+P1082,Summit Pro Daypack,Sports,Outdoor,Summit,22.6,13.3,3.9,2023-09-03,0.07,True,0.4115044247787611
+P1083,CoreOne Essential Daypack,Sports,Outdoor,CoreOne,88.35,59.28,4.5,2024-07-06,0.07,True,0.3290322580645161
+P1084,TrailArc Lite Daypack,Sports,Outdoor,TrailArc,42.97,19.16,4.2,2023-11-17,0.07,True,0.5541075168722365
+P1085,Summit Flex Massage Roller,Sports,Recovery,Summit,22.11,10.36,4.1,2024-01-14,0.07,True,0.5314337403889643
+P1086,MotionLab Core Yoga Mat,Sports,Yoga,MotionLab,89.85,46.36,4.0,2023-06-15,0.07,True,0.4840289371174179
+P1087,TrailArc Go Water Bottle,Sports,Hydration,TrailArc,118.53,74.53,4.4,2025-01-08,0.07,True,0.37121403864000674
+P1088,TrailArc Pro Water Bottle,Sports,Hydration,TrailArc,99.21,61.57,4.4,2024-07-04,0.07,True,0.3793972381816349
