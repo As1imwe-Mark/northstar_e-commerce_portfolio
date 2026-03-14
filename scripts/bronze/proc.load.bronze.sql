@@ -43,19 +43,6 @@ WITH (
     TABLOCK
 );
 
--- Order Items Table
-TRUNCATE TABLE bronze.orders;
-
-BULK INSERT bronze.orders
-FROM 'C:\Datasets\northstar_ecommerce_dataset_csv\orders.csv'
-WITH (
-    FORMAT = 'CSV',       
-    FIRSTROW = 2,
-    FIELDTERMINATOR = ',',
-    ROWTERMINATOR = '0x0a',  
-    TABLOCK
-);
-
 --- Orders Table
 TRUNCATE TABLE bronze.orders;
 
