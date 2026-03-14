@@ -1,4 +1,4 @@
---- Initailizing the database
+--- Initailizing the northstar e-commerce database
 
 DROP DATABASE  IF EXISTS Northstar_portfolio;
 GO
