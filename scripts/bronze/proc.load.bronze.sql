@@ -11,7 +11,7 @@ BEGIN TRY
 --- =========================================================
 --- Remove existing records to allow a fresh reload of data
 TRUNCATE TABLE bronze.customers;
-
+--- Insert customer records
 BULK INSERT bronze.customers
 FROM 'C:\Datasets\northstar_ecommerce_dataset_csv\customers.csv'
 WITH (
@@ -29,7 +29,7 @@ WITH (
 
 --- Remove old data
 TRUNCATE TABLE bronze.marketing_spend;
-
+--- Insert marketing spend records
 BULK INSERT bronze.marketing_spend
 FROM 'C:\Datasets\northstar_ecommerce_dataset_csv\marketing_spend.csv'
 WITH (
@@ -47,7 +47,7 @@ WITH (
 
 --- Remove existing records before load
 TRUNCATE TABLE bronze.order_items;
-
+--- Insert order item records
 BULK INSERT bronze.order_items
 FROM 'C:\Datasets\northstar_ecommerce_dataset_csv\order_items.csv'
 WITH (
@@ -64,7 +64,7 @@ WITH (
 
 --- Remove old order data
 TRUNCATE TABLE bronze.orders;
-
+--- Insert order records
 BULK INSERT bronze.orders
 FROM 'C:\Datasets\northstar_ecommerce_dataset_csv\orders.csv'
 WITH (
@@ -81,7 +81,7 @@ WITH (
 
 --- Remove existing product data
 TRUNCATE TABLE bronze.products;
-
+--- Insert product records
 BULK INSERT bronze.products
 FROM 'C:\Datasets\northstar_ecommerce_dataset_csv\products.csv'
 WITH (
@@ -98,7 +98,7 @@ WITH (
 
 --- Remove existing return data
 TRUNCATE TABLE bronze.returns;
-
+--- Insert return records
 BULK INSERT bronze.returns
 FROM 'C:\Datasets\northstar_ecommerce_dataset_csv\returns.csv'
 WITH (
