@@ -1,8 +1,15 @@
---- Stored procedure for inserting data into the bronze tables
+--- Insert Data into Silver Layer tables
+--- This stored procedure performs the transformation step of the Medallion Architecture
+--- It cleans, standardizes and loads data from the Bronze layer into the Silver layer
+
 CREATE PROCEDURE load_bronze AS
 BEGIN
 BEGIN TRY
---- Customer Table
+
+--- =========================================================
+--- CUSTOMERS TABLE
+--- =========================================================
+--- Remove existing records to allow a fresh reload of data
 TRUNCATE TABLE bronze.customers;
 
 BULK INSERT bronze.customers
@@ -16,7 +23,11 @@ WITH (
 );
 
 
---- Marketing Spend Table
+--- =========================================================
+--- MARKETING SPEND TABLE
+--- =========================================================
+
+--- Remove old data
 TRUNCATE TABLE bronze.marketing_spend;
 
 BULK INSERT bronze.marketing_spend
@@ -30,7 +41,11 @@ WITH (
 );
 
 
--- Order Items Table
+--- =========================================================
+--- ORDER ITEMS TABLE
+--- =========================================================
+
+--- Remove existing records before load
 TRUNCATE TABLE bronze.order_items;
 
 BULK INSERT bronze.order_items
@@ -43,7 +58,11 @@ WITH (
     TABLOCK
 );
 
---- Orders Table
+--- =========================================================
+--- ORDERS TABLE
+--- =========================================================
+
+--- Remove old order data
 TRUNCATE TABLE bronze.orders;
 
 BULK INSERT bronze.orders
@@ -56,7 +75,11 @@ WITH (
     TABLOCK
 );
 
---- Products Table
+--- =========================================================
+--- PRODUCTS TABLE
+--- =========================================================
+
+--- Remove existing product data
 TRUNCATE TABLE bronze.products;
 
 BULK INSERT bronze.products
@@ -69,7 +92,11 @@ WITH (
     TABLOCK
 );
 
---- Returns Table
+--- =========================================================
+--- RETURNS TABLE
+--- =========================================================
+
+--- Remove existing return data
 TRUNCATE TABLE bronze.returns;
 
 BULK INSERT bronze.returns
