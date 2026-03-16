@@ -1,6 +1,6 @@
 # Northstar E-Commerce Portfolio
 
-This is my data warehousing project where I built a complete ETL pipeline for e-commerce analytics using SQL Server. I used the Medallion Architecture (Bronze, Silver, Gold layers) to organize everything nicely.
+9This is my data warehousing project where I built a complete ETL pipeline for e-commerce analytics using SQL Server. I used the Medallion Architecture (Bronze, Silver, Gold layers) to organize everything nicely.
 
 ## 📋 Table of Contents
 - [Northstar E-Commerce Portfolio](#northstar-e-commerce-portfolio)
@@ -29,6 +29,7 @@ This is my data warehousing project where I built a complete ETL pipeline for e-
   - [🧪 Testing](#-testing)
   - [🤝 Contributing](#-contributing)
   - [📄 License](#-license)
+  - [🤝 Connect with me](#-connect-with-me)
 
 ## 🎯 Overview
 
@@ -310,3 +311,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Portfolio Project by Asiimwe Mark Amooti**  
 *Learning data engineering and business intelligence - this was my first big analytics project!*
+
+## 🤝 Connect with me
+
+
+<a href="https://twitter.com/MarkAsiimwe" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="mark asiimwe" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/mark-asiimwe-0ab0611ab/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="mark asiimwe" height="30" width="40" /></a>
+<a href="https://fb.com/asiimwe mark amooti" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="asiimwe mark amooti" height="30" width="40" /></a>
+<a href="https://www.instagram.com/asmark_twirlings/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="asiimwe mark" height="30" width="40" /></a>
+<a href="https://www.youtube.com/channel/UCQ_kIWCzWff9SeLaerzjzwg" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="mark_asiimwe" height="30" width="40" /></a>
+</p>
