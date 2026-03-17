@@ -4,26 +4,29 @@
 
 --- Fact order_items View
 CREATE OR ALTER VIEW gold.fact_order_items AS
-
 SELECT 
-oi.order_item_id,
-oi.order_id,
-oi.product_id,
-oi.customer_id,
-oi.order_date,
-oi.quantity,
-oi.unit_price,
-oi.unit_cost,
-oi.item_discount_amount AS discount_amount,
-oi.line_subtotal AS gross_sales,
-oi.line_total AS net_sales,
-oi.line_cogs,
-oi.line_gross_profit
-FROM silver.order_items AS oi
-LEFT JOIN silver.orders AS o 
-ON oi.order_id = o.order_id
-WHERE o.order_status = 'Delivered' AND o.order_id IS NOT NULL;
-
+order_item_id,
+order_id,
+product_id,
+customer_id,
+order_date,
+quantity,
+unit_price,
+unit_cost,
+item_discount_amount AS discount_amount,
+line_subtotal AS gross_sales,
+line_total AS net_sales,
+line_cogs,
+line_gross_profit,
+CASE 
+ WHEN quantity > 0 AND line_total >= 0 THEN 1
+ ELSE 0 END AS is_valid_sale
+FROM silver.order_items
+WHERE order_id IS NOT NULL
+    AND product_id IS NOT NULL
+    AND customer_id IS NOT NULL
+    AND quantity > 0
+    AND unit_price >= 0;
 
 
 --- factOrders view 
